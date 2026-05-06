@@ -62,5 +62,5 @@ terraform destroy
 
 ## Notes
 
-- The CIDRs `10.50.0.0/16` (Tokyo) and `10.0.0.0/16` (Sydney) are hard-coded in `main.tf` — parameterise via variables if re-using.
+- The CIDRs `10.40.0.0/16` (Tokyo) and `10.10.0.0/16` (Sydney) are hard-coded in `main.tf` — parameterise via variables if re-using.
 - Demonstrates: multi-region Terraform (provider aliases), data-driven route fan-out, cross-region private networking without Transit Gateway.
