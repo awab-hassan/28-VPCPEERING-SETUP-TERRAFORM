@@ -1,6 +1,6 @@
 # Cross-Region VPC Peering (Region 1 ↔ Region 2)
 
-Terraform module that establishes a full cross-region VPC peering link between **Region 1** and **Region 2** — creating the peering connection, auto-accepting it in the remote region, and injecting the return routes into every route table on both sides so instances in either VPC can reach each other over private AWS backbone.
+Terraform module that establishes a full cross-region VPC peering link between **Region 1** and **Region 2** - creating the peering connection, auto-accepting it in the remote region, and injecting the return routes into every route table on both sides so instances in either VPC can reach each other over private AWS backbone.
 
 ## Highlights
 
